@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnenviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="364dp"
+            android:src="@drawable/ok"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="24dp"
+            android:text="Nombres:" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="89dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombres"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="67dp"
+            android:layout_marginRight="0dp"
+            android:text="Apellidos" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Apellidos"
+            android:textSize="14sp"
+            android:layout_alignLeft="@+id/txtNombres"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="107dp"
+            android:text="Correo"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="7dp" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="92dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp"
+            android:layout_alignRight="@+id/txtNombres"
+            android:layout_marginRight="-2dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="154dp"
+            android:text="Móvil"
+            android:layout_marginLeft="-17dp"
+            android:layout_toRightOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/txtMovil"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="147dp"
+            android:layout_marginRight="74dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/txtFijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="192dp"
+            android:layout_marginRight="74dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/txtTrabajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="236dp"
+            android:layout_marginRight="75dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="87dp"
+            android:layout_marginTop="206dp"
+            android:text="Fijo" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="455dp"
+            android:text="Trabajo"
+            android:layout_marginRight="44dp"
+            android:layout_toLeftOf="@+id/txtFijo" />
+
+        <TextView
+            android:id="@+id/txtloc"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginBottom="314dp"
+            android:text="Señala tu localización." />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-53dp" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtloc"
+            android:layout_marginRight="-84dp"
+            android:layout_marginBottom="40dp"
+            android:layout_toLeftOf="@+id/textView2"
+            android:src="@drawable/common_full_open_on_phone" />
+
+    </RelativeLayout>
+
+</FrameLayout>
